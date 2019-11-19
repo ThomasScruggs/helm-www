@@ -48,8 +48,6 @@ $ helm create mychart
 Creating mychart
 ```
 
-From here on, we'll be working in the `mychart` directory.
-
 ### A Quick Glimpse of `mychart/templates/`
 
 If you take a look at the `mychart/templates/` directory, you'll notice a few
@@ -69,7 +67,7 @@ our tutorial from scratch. We'll actually create our own `NOTES.txt` and
 `_helpers.tpl` as we go.
 
 ```console
-$ rm -rf mychart/templates/*.*
+$ rm -rf mychart/templates/*
 ```
 
 When you're writing production grade charts, having basic versions of these
